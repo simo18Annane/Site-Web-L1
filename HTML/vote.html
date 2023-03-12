@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="description" content="FC Barcelone">
+    <meta name="author" content="ANNANE Mohamed BENHA Mouad">
+    <title>FC Barcelone</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/vote.css"/>
+    <script src="../JavaScript/vote.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+<body onload="vbarca()">
+    <div id="body1">
+        <header> 
+            <button id="b" type="button" onclick="date()">Afficher la Date</button>                                                                                                    <!--heure et liste-->
+            <p id="date"></p>
+            <div id="list">                                                                                                    <!--liste-->
+                <img id="img1" src="../media/logo.png" title="FC Barcelone">
+                <ul id="list1">
+                    <li class="l1"><a href="../HTML/index.html" target="_self">Accueil</a></li>
+                    <li class="l1"><a href="../HTML/equipe.html" target="_self">Equipe</a></li>
+                    <li class="l1"><a href="../HTML/palmares.html" target="_self">Palmares</a></li>
+                    <li class="l1"><a href="../HTML/club.html" target="_self">Club</a></li>
+                    <li class="l1"><a href="../HTML/compte.html" target="_self">Mon compte</a></li>
+                    <li class="l1"><a href="../HTML/vote.html" target="_self">vote</a></li>
+                </ul>
+            </div>
+        </header>  
+        <div>
+            <button  onclick="location.href='../HTML/compte.html'">Page precedente</button>
+            <button  onclick="location.href='../HTML/index.html'">Page Suivante</button>
+        </div>
+        <h1>Meilleurs final de la ligue des Champions</h1>
+        <div class="red">
+            <div class="left">
+                <h3 class="h1">Vote</h3>
+                <form>
+                    <input type="radio" id="final1" name="final" value="final 2015">
+                    <label for="final1">final 2015 (Berlin)</label><br>
+                    <input type="radio" id="final2" name="final" value="final 2011">
+                    <label for="final2">final 2011 (London)</label><br>
+                    <input type="radio" id="final3" name="final" value="final 2009">
+                    <label for="final3">final 2009 (Rome)</label><br>
+                    <div class="s3"><button type="button" onclick="voter()">Voter</button>
+                    <button type="button" onclick="history.go(0)">Initialiser</button></div>
+                </form>
+            </div>
+            <div class="center">
+                <h3 class="h2">Résultats du vote...</h3>
+                <p id="statistic"></p>
+                <p id="nbvote">0 vote</p>
+            </div>
+        </div>
+            <h3 class="h2">Video en t&ecirc;te:</h3>
+            <p id="video"></p>
+            <h1>Meilleurs but</h1>
+            <div class="red">
+                <div class="left">
+                    <h3 class="h1">Vote</h3>
+                    <form>
+                        <input type="radio" id="but1" name="but" value="messi">
+                        <label for="but1">messi (3-0 bayern)</label><br>
+                        <input type="radio" id="but2" name="but" value="roberto">
+                        <label for="but2">sergio roberto (6-1 psg)</label><br>
+                        <input type="radio" id="but3" name="but" value="xavi">
+                        <label for="but3">messi (3-0 liverpool)</label><br>
+                        <div class="s3"><button type="button" onclick="voter1()">Voter</button>
+                        <button type="button" onclick="history.go(0)">Initialiser</button></div>
+                    </form>
+                </div>
+                <div class="center">
+                    <h3 class="h2">Résultats du vote...</h3>
+                    <p id="statistic1"></p>
+                    <p id="nbvote1">0 vote</p>
+                </div>
+            </div>
+                <h3 class="h2">but en t&ecirc;te:</h3>
+                <p id="video1"></p>
+                <div id="barca">
+                    <canvas id="canevas"></canvas>
+                  </div>
+                
+                <footer>
+                    <ul id="list2">
+                        <li class="L2"><a href="../HTML/index.html">Accueil</a></li>
+                        <li class="L2"><a href="../HTML/equipe.html">Equipe</a></li>
+                        <li class="L2"><a href="../HTML/palmares.html">Palmares</a></li>
+                        <li class="L2"><a href="../HTML/club.html">Club</a></li>
+                        <li class="L2"><a href="../HTML/compte.html">Mon compte</a></li>
+                        <li class="L2"><a href="../HTML/vote.html">Vote</a></li>
+                    </ul>
+                    <p id="p6"><a href="https://www.instagram.com/fcbarcelona/?hl=fr" target="_blank"><img id="img7" src="../media/Instagram.png" title="instagram"></a></p>
+                    <p class="p7"><a href="https://fr-fr.facebook.com/fcbarcelona" target="_blank"><img class="img8" src="../media/Splash-Facebook-Icon-Png-715x715.png" title="Facebook"></a></p>
+                    <p class="p7"><a href="https://www.youtube.com/channel/UC14UlmYlSNiQCBe9Eookf_A" target="_blank"><img class="img8" src="../media/youtube_splash.png" title="youtube"></a></p>
+                    <a href="https://www.fcbarcelona.fr/fr/" target="_blank"><img id="img6" src="../media/logo.png" title="FC Barcelone"></a>
+                    <h4>FC BARCELONE</h4>
+                    <p id="p8">	&#169; Site cr&eacute;e par ANNANE Mohamed et BENHA Mouad</p>
+                  </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="description" content="FC Barcelone">
+    <meta name="author" content="ANNANE Mohamed BENHA Mouad">
+    <title>FC Barcelone</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/palmares.css"/>
+    <script src="../JavaScript/palmares.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id="body1">
+        <header>  
+            <button id="b" type="button" onclick="date()">Afficher la Date</button>                                                                                                    <!--heure et liste-->
+            <p id="date"></p>
+            <div id="list">                                                                                                    <!--liste-->
+                <img id="m1" src="../media/logo.png" title="FC Barcelone">
+                <ul id="list1">
+                    <li class="l1"><a href="../HTML/index.html" target="_self">Accueil</a></li>
+                    <li class="l1"><a href="../HTML/equipe.html" target="_self">Equipe</a></li>
+                    <li class="l1"><a href="../HTML/palmares.html" target="_self">Palmares</a></li>
+                    <li class="l1"><a href="../HTML/club.html" target="_self">Club</a></li>
+                    <li class="l1"><a href="../HTML/compte.html" target="_self">Mon compte</a></li>
+                    <li class="l1"><a href="../HTML/vote.html" target="_self">vote</a></li>
+                </ul>
+            </div>
+        </header>  
+        <div>
+            <button  onclick="location.href='../HTML/equipe.html'">Page precedente</button>
+            <button  onclick="location.href='../HTML/club.html'">Page Suivante</button>
+        </div>
+        <div id="titre">
+            <img class="i1" src="../media/liga.jpg" alt="laliga">
+            <img class="i1" src="../media/cdr.jpg" alt="copadelrey">
+            <img class="i1" src="../media/ucl.jpg" alt="uefa champions league">
+            <img class="i1" src="../media/worldcup.jpg" alt="world cup">
+        </div>
+            <table id="tab1">
+               <thead><tr>
+                    <th colspan="2">Compétitions nationales</th>                
+                </tr>
+            </thead> 
+            <tbody>
+                <tr>
+                    <td>Championnat d'Espagne (26) </td>
+                    <td>Champion : 1929, 1945, 1948, 1949, 1952, 1953, 1959, 1960, 1974, 1985, 1991, 1992, 1993, 1994, 1998, 1999, 2005, 2006, 2009, 2010, 2011, 2013, 2015, 2016, 2018 et 2019.</td>
+                </tr>
+                <tr>
+                   <td>Coupe d'Espagne (30)</td>
+                   <td>Vainqueur : 1910, 1912, 1913, 1920, 1922, 1925, 1926, 1928, 1942, 1951, 1952, 1953, 1957, 1959, 1963, 1968, 1971, 1978, 1981, 1983, 1988, 1990, 1997, 1998, 2009, 2012, 2015, 2016, 2017 et 2018.</td>
+                </tr>
+                <tr>
+                    <td>Supercoupe d'Espagne (13)</td>
+                    <td>Vainqueur : 1983, 1991, 1992, 1994, 1996, 2005, 2006, 2009, 2010, 2011, 2013, 2016 et 2018.</td>
+                </tr>
+                <tr>
+                    <td>Coupe de la ligue d'Espagne (2)</td>
+                    <td>Vainqueur : 1983 et 1986.</td>
+                </tr>
+                <tr>
+                    <td>Coupe Eva Duarte (3)</td>
+                    <td>Vainqueur : 1948, 1952 et 1953.</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Copa de Oro Argentina  (1)</td>
+                    <td>Vainqueur : 1945.</td>
+                </tr>
+            </tfoot>          
+            </table>
+            <table id="tab2">
+                <thead><tr >
+                    <th colspan="2" >Compétitions internationales</th>                
+                </tr>
+            </thead> 
+            <tbody>                  
+                <tr>
+                    <td>Ligue des champions (5)</td>
+                    <td >Vainqueur : 1992, 2006, 2009, 2011 et 2015.</td>
+                </tr> 
+                <tr>
+                    <td>Coupe du monde des clubs (3)</td>
+                    <td>Vainqueur : 2009, 2011 et 2015.</td>
+                </tr> 
+                <tr>
+                    <td>Supercoupe de l'UEFA (5)</td>
+                    <td>Vainqueur : 1992, 1997, 2009, 2011 et 2015.</td>
+                </tr>
+                <tr>
+                    <td>Coupe d'Europe des vainqueurs de coupe (4)</td>
+                    <td>Vainqueur : 1979, 1982, 1989 et 1997.</td>
+                </tr>
+                <tr>
+                    <td>Coupe des villes de foires (3)</td>
+                    <td>Vainqueur : 1958, 1960 et 1966.</td>
+                </tr>
+            </tbody> 
+            <tfoot>
+                <tr>
+                    <td>Coupe latine (2)</td>
+                    <td>Vainqueur : 1949 et 1952.</td>
+                </tr> 
+            </tfoot>               
+            </table>
+            <div id="b1">
+                <button class="b1" type="button" onclick="img1()">Championnat d'Espagne</button>
+                <button class="b1" type="button" onclick="img2()">Coupe d'Espagne</button>
+                <button class="b1" type="button" onclick="img3()">Supercoupe d'Espagne</button>
+            </div>
+            <div id="image"> </div>
+            <div id="b2">
+                <button class="b1" type="button" onclick="img4()">UEFA Champions League</button>
+                <button class="b1" type="button" onclick="img5()">Supercoupe de l'UEFA</button>
+                <button class="b1" type="button" onclick="img6()">Coupe du monde des clubs</button>
+            </div> 
+            <div id="image1"> </div>
+            <footer>
+                <ul id="list2">
+                    <li class="L2"><a href="../HTML/index.html">Accueil</a></li>
+                    <li class="L2"><a href="../HTML/equipe.html">Equipe</a></li>
+                    <li class="L2"><a href="../HTML/palmares.html">Palmares</a></li>
+                    <li class="L2"><a href="../HTML/club.html">Club</a></li>
+                    <li class="L2"><a href="../HTML/compte.html">Mon compte</a></li>
+                    <li class="L2"><a href="../HTML/vote.html">Vote</a></li>
+                </ul>
+                <p id="p6"><a href="https://www.instagram.com/fcbarcelona/?hl=fr" target="_blank"><img id="img7" src="../media/Instagram.png" title="instagram"></a></p>
+                <p class="p7"><a href="https://fr-fr.facebook.com/fcbarcelona" target="_blank"><img class="img8" src="../media/Splash-Facebook-Icon-Png-715x715.png" title="Facebook"></a></p>
+                <p class="p7"><a href="https://www.youtube.com/channel/UC14UlmYlSNiQCBe9Eookf_A" target="_blank"><img class="img8" src="../media/youtube_splash.png" title="youtube"></a></p>
+                <a href="https://www.fcbarcelona.fr/fr/" target="_blank"><img id="img6" src="../media/logo.png" title="FC Barcelone"></a>
+                <h4>FC BARCELONE</h4>
+                <p id="p8">	&#169; Site cr&eacute;e par ANNANE Mohamed et BENHA Mouad</p>
+              </footer>
+     </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html  lang="fr">
+<head>
+    <title>FC Barcelone</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/compte.css"/>
+    <script src="../JavaScript/compte.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="FC Barcelone">
+    <meta name="author" content="ANNANE Mohamed BENHA Mouad">
+</head>
+<body onload="remplir()">
+    <div id="body1">
+        <header> 
+            <button id="b" type="button" onclick="date()">Afficher la Date</button>                                                                                                    <!--heure et liste-->
+            <p id="date"></p>
+            <div id="list">                                                                                                    <!--liste-->
+                <img src="../media/logo.png" title="FC Barcelone">
+                <ul id="list1">
+                    <li class="l1"><a href="../HTML/index.html" target="_self">Accueil</a></li>
+                    <li class="l1"><a href="../HTML/equipe.html" target="_self">Equipe</a></li>
+                    <li class="l1"><a href="../HTML/palmares.html" target="_self">Palmares</a></li>
+                    <li class="l1"><a href="../HTML/club.html" target="_self">Club</a></li>
+                    <li class="l1"><a href="../HTML/compte.html" target="_self">Mon compte</a></li>
+                    <li class="l1"><a href="../HTML/vote.html" target="_self">vote</a></li>
+                </ul>
+            </div>
+          </header>  
+        <div>
+          <button  onclick="location.href='../HTML/club.html'">Page precedente</button>
+          <button  onclick="location.href='../HTML/vote.html'">Page Suivante</button>
+      </div>
+        <img id="img1" src="../media/FB_IMG_1606518469376.jpg" title="FC Barcelone">
+            <div id="form">
+                <form>
+                <div class="a">
+                  <div class="description">
+                    <label for="fname">Nom</label>
+                  </div>
+                  <div class="remplissage">
+                    <input type="text" id="fname" name="firstname" placeholder="Votre Nom" required>
+                  </div>
+                </div>
+                <div class="a">
+                  <div class="description">
+                    <label for="lname">Prenom</label>
+                  </div>
+                  <div class="remplissage">
+                    <input type="text" id="lname" name="lastname" placeholder="Votre Prenom" required>
+                  </div>
+                </div>
+                <div class="a">
+                  <div class="description">
+                    <label for="naissance">Birthday:</label>
+                  </div>
+                  <div class="remplissage">
+                    <input type="date" id="naissance" name="naissance">
+                  </div>
+                </div>
+                <div class="a">
+                    <div class="description">
+                      <label for="email">Email</label>
+                    </div>
+                    <div class="remplissage">
+                      <input type="email" id="email" name="Email" placeholder="Email@gmail.com" required>
+                    </div>
+                  </div>
+                <div class="a">
+                  <div class="description">
+                    <label for="country">Pays</label>
+                  </div>
+                  <div class="remplissage">
+                    <select id="country" name="country">
+                      <option value="France">France</option>
+                      <option value="Espagne">Espagne</option>
+                      <option value="Angleterre">Angleterre</option>
+                      <option value="Maroc">Maroc</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="a">
+                  <div class="description">
+                    <label for="message">Commentaires</label>
+                  </div>
+                  <div class="remplissage">
+                    <textarea id="message" name="message" placeholder="Ecrire votre commentaires.."></textarea>
+                  </div>
+                </div>
+                <div class="a">
+                  <input type="submit" value="Envoyer">
+                  <button id="m2" type="button" onclick="history.go(0)">Initialiser</button>
+                </div>
+                </form>
+              </div>
+              <footer>
+                <ul id="list2">
+                    <li class="L2"><a href="../HTML/index.html">Accueil</a></li>
+                    <li class="L2"><a href="../HTML/equipe.html">Equipe</a></li>
+                    <li class="L2"><a href="../HTML/palmares.html">Palmares</a></li>
+                    <li class="L2"><a href="../HTML/club.html">Club</a></li>
+                    <li class="L2"><a href="../HTML/compte.html">Mon compte</a></li>
+                    <li class="L2"><a href="../HTML/vote.html">Vote</a></li>
+                </ul>
+                <p id="p6"><a href="https://www.instagram.com/fcbarcelona/?hl=fr" target="_blank"><img id="img7" src="../media/Instagram.png" title="instagram"></a></p>
+                <p class="p7"><a href="https://fr-fr.facebook.com/fcbarcelona" target="_blank"><img class="img8" src="../media/Splash-Facebook-Icon-Png-715x715.png" title="Facebook"></a></p>
+                <p class="p7"><a href="https://www.youtube.com/channel/UC14UlmYlSNiQCBe9Eookf_A" target="_blank"><img class="img8" src="../media/youtube_splash.png" title="youtube"></a></p>
+                <a href="https://www.fcbarcelona.fr/fr/" target="_blank"><img id="img6" src="../media/logo.png" title="FC Barcelone"></a>
+                <h4>FC BARCELONE</h4>
+                <p id="p8">	&#169; Site cr&eacute;e par ANNANE Mohamed et BENHA Mouad</p>
+              </footer>
+    </div>
+</body>
+</html>
+            
+              
+            
+        
